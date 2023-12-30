@@ -105,6 +105,14 @@ body {
   gap: 4.8rem;
 }
 
+@media (max-width: 767px) {
+  .pizzas {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4.8rem;
+  }
+}
+
 .pizza {
   display: flex;
   gap: 3.2rem;
